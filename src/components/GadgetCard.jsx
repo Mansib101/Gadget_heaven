@@ -22,7 +22,7 @@ const GadgetCard = () => {
         
         <div className="flex flex-wrap items-center justify-between mt-4">
           <span className="text-gray-700 whitespace-nowrap">Price: 1000 BDT</span>
-          <div className="p-0.5 rounded-full bg-linear-to-r from-blue-400 to-purple-500">
+          <div className="p-0.5 rounded-full hover:scale-105 transition-all bg-linear-to-r from-blue-400 to-purple-500">
           <button className="bg-white text-purple-600 font-semibold px-2 py-1 whitespace-nowrap 
           rounded-full hover:bg-gray-100 active:bg-white transition-all duration-250">
             View Details
