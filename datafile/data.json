@@ -1,0 +1,170 @@
+[
+  {
+    "id": 101,
+    "name": "Lumixia Pro Smartphone",
+    "price": 899.99,
+    "instock": true,
+    "rating": 4.8,
+    "specifications": {
+      "display": "6.7-inch OLED",
+      "processor": "Snapdragon Gen 3",
+      "battery": "5000mAh",
+      "storage": "256GB"
+    },
+    "description": "A flagship powerhouse with a revolutionary triple-lens camera system."
+  },
+  {
+    "id": 102,
+    "name": "Zenith ANC Headphones",
+    "price": 249.50,
+    "instock": true,
+    "rating": 4.5,
+    "specifications": {
+      "type": "Over-ear",
+      "battery_life": "40 hours",
+      "connectivity": "Bluetooth 5.3",
+      "noise_cancelling": "Active"
+    },
+    "description": "Immersive sound quality with industry-leading noise cancellation technology."
+  },
+  {
+    "id": 103,
+    "name": "Vapor UltraBook 14",
+    "price": 1299.00,
+    "instock": false,
+    "rating": 4.7,
+    "specifications": {
+      "cpu": "Intel Core i7",
+      "ram": "16GB DDR5",
+      "weight": "1.2kg",
+      "screen": "4K Touch"
+    },
+    "description": "Ultra-slim, high-performance laptop designed for creative professionals."
+  },
+  {
+    "id": 104,
+    "name": "Titan Rugged Smartwatch",
+    "price": 199.99,
+    "instock": true,
+    "rating": 4.2,
+    "specifications": {
+      "water_resistance": "5ATM",
+      "gps": "Built-in",
+      "sensors": "Heart rate, SpO2",
+      "casing": "Titanium"
+    },
+    "description": "A durable fitness companion built to withstand extreme outdoor conditions."
+  },
+  {
+    "id": 105,
+    "name": "Aura Mechanical Keyboard",
+    "price": 125.00,
+    "instock": true,
+    "rating": 4.6,
+    "specifications": {
+      "switches": "Cherry MX Red",
+      "backlight": "RGB",
+      "layout": "Tenkeyless",
+      "interface": "USB-C"
+    },
+    "description": "Tactile, responsive gaming keyboard with customizable lighting effects."
+  },
+  {
+    "id": 106,
+    "name": "PixelSight 4K Webcam",
+    "price": 79.99,
+    "instock": true,
+    "rating": 4.1,
+    "specifications": {
+      "resolution": "4K UHD",
+      "fps": "60fps",
+      "mic": "Dual Stereo",
+      "fov": "90 degrees"
+    },
+    "description": "Crystal clear video quality for professional streaming and meetings."
+  },
+  {
+    "id": 107,
+    "name": "Nova Portable Projector",
+    "price": 450.00,
+    "instock": true,
+    "rating": 4.4,
+    "specifications": {
+      "brightness": "2000 Lumens",
+      "max_size": "150 inches",
+      "os": "Android TV",
+      "inputs": "HDMI, USB"
+    },
+    "description": "Pocket-sized cinema experience with smart streaming built-in."
+  },
+  {
+    "id": 108,
+    "name": "SwiftCharge 100W Hub",
+    "price": 59.00,
+    "instock": true,
+    "rating": 4.9,
+    "specifications": {
+      "ports": "3x USB-C, 1x USB-A",
+      "tech": "GaN Technology",
+      "total_power": "100W",
+      "safety": "Overload protection"
+    },
+    "description": "Fast-charging power adapter for multiple devices simultaneously."
+  },
+  {
+    "id": 109,
+    "name": "EchoStream VR Headset",
+    "price": 399.00,
+    "instock": false,
+    "rating": 4.3,
+    "specifications": {
+      "resolution": "2K per eye",
+      "refresh_rate": "120Hz",
+      "tracking": "6DoF",
+      "storage": "128GB"
+    },
+    "description": "Standalone virtual reality headset for immersive gaming and social apps."
+  },
+  {
+    "id": 110,
+    "name": "Glide Wireless Mouse",
+    "price": 45.99,
+    "instock": true,
+    "rating": 4.5,
+    "specifications": {
+      "dpi": "16000",
+      "buttons": "6 programmable",
+      "sensor": "Optical",
+      "weight": "65g"
+    },
+    "description": "Ergonomic, lightweight mouse designed for precision and speed."
+  },
+  {
+    "id": 111,
+    "name": "SolarBeam Power Bank",
+    "price": 35.50,
+    "instock": true,
+    "rating": 4.0,
+    "specifications": {
+      "capacity": "20000mAh",
+      "charging": "Solar + USB-C",
+      "rugged": "IP67 rated",
+      "flashlight": "Integrated LED"
+    },
+    "description": "The perfect backup battery for hikers and outdoor enthusiasts."
+  },
+  {
+    "id": 112,
+    "name": "SkyDrone X-5",
+    "price": 750.00,
+    "instock": true,
+    "rating": 4.7,
+    "specifications": {
+      "flight_time": "35 mins",
+      "camera": "4K/60fps Gimbal",
+      "range": "10km",
+      "features": "Obstacle avoidance"
+    },
+    "description": "Professional-grade drone for breathtaking aerial photography."
+  }
+]

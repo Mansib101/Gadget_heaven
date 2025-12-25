@@ -1,6 +1,7 @@
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -12,14 +13,14 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul className="flex gap-12 text-sm">
-                        <li>Home</li>
+                        <li><NavLink to="/">Home</NavLink></li>
                         <li>Statisitcs</li>
                         <li>Dashboard</li>
                     </ul>
                 </div>
                 <div className="flex gap-4 text-black">
                     <button className="bg-white flex items-center justify-center w-10 h-10 rounded-full
-                    hover:bg-gray-200 hover:scale-110 active:bg-white transition-all duration-250"><FontAwesomeIcon icon={faCartShopping}/></button>
+                    hover:bg-gray-200 hover:scale-110 active:bg-white transition-all duration-250"><FontAwesomeIcon icon={faCartShopping}/><NavLink to="/cart"></NavLink></button>
                     <button className="bg-white flex items-center justify-center w-10 h-10 rounded-full
                     hover:bg-gray-200 hover:scale-110 active:bg-white transition-all duration-250"><FontAwesomeIcon icon={faHeart} /></button>
                 </div>
