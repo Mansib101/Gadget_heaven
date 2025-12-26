@@ -6,7 +6,7 @@ const Footer = () => {
                 <p className="text-gray-500 mt-2">Leading the way in cutting-edge technology and innovation.</p>
             </div>
 
-            <hr class="border-t border-[rgba(9,8,15,0.1)] w-5/6 my-7" />
+            <hr className="border-t border-[rgba(9,8,15,0.1)] w-5/6 my-7" />
 
             <div className="grid grid-cols-3 text-center w-5/6 lg:w-3/4 ">
                 <div>

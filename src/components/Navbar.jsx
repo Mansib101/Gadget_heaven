@@ -1,11 +1,14 @@
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import Banner from "./Banner";
+import {motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
+    const location = useLocation();
     return (
-        <div className="min-h-screen mb-12">
+        <div className="">
         <div className="bg-[rgba(149,56,226,1)] rounded-2xl mx-7 mt-7 pb-32">
             <div className="flex justify-between px-32 pt-6 text-white">
                 <div>
@@ -14,13 +17,16 @@ const Navbar = () => {
                 <div>
                     <ul className="flex gap-12 text-sm">
                         <li><NavLink to="/">Home</NavLink></li>
-                        <li>Statisitcs</li>
+                        <li>Statistics</li>
                         <li>Dashboard</li>
                     </ul>
                 </div>
                 <div className="flex gap-4 text-black">
+                    <NavLink to="/cart">
                     <button className="bg-white flex items-center justify-center w-10 h-10 rounded-full
-                    hover:bg-gray-200 hover:scale-110 active:bg-white transition-all duration-250"><FontAwesomeIcon icon={faCartShopping}/><NavLink to="/cart"></NavLink></button>
+                    hover:bg-gray-200 hover:scale-110 active:bg-white transition-all duration-250"><FontAwesomeIcon icon={faCartShopping}/></button>
+                    </NavLink>
+                    
                     <button className="bg-white flex items-center justify-center w-10 h-10 rounded-full
                     hover:bg-gray-200 hover:scale-110 active:bg-white transition-all duration-250"><FontAwesomeIcon icon={faHeart} /></button>
                 </div>
@@ -40,9 +46,19 @@ const Navbar = () => {
                 </button>
             </div>
         </div>
-        <div className="w-2/3 bg-white/30 backdrop-blur-md aspect-2/1 border-2 border-white mx-auto -mt-20 flex justify-center rounded-4xl">
-            <img className="object-fill h-full w-full rounded-3xl m-6" src="../../assets/banner.jpg" alt="Banner"></img>
-        </div>
+            <div>
+                <AnimatePresence>
+                    {location.pathname === "/" && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }} 
+            animate={{ opacity: 1, y: 0 }}   
+            transition={{ duration: 0.3 }}
+            >  
+            <Banner />
+          </motion.div>
+        )}
+                </AnimatePresence>
+            </div>
         </div>
     );
 };
